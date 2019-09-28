@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SegmentControl-->
+    <declare-styleable name="SegmentControl">
+        <attr name="segmentItemText" format="string" />
+        <attr name="segmentItemNormalTextColor" format="reference|color" />
+        <attr name="segmentItemSelectedTextColor" format="reference|color" />
+        <attr name="segmentItemTextSize" format="dimension" />
+        <attr name="segmentNormalBackgroundColor" format="reference|color" />
+        <attr name="segmentItemSelectedBackgroundColor" format="reference|color" />
+        <attr name="segmentCornerRadius" format="dimension" />
+        <attr name="segmentLineSize" format="dimension" />
+        <attr name="segmentLineColor" format="reference|color" />
+        <attr name="segmentCurrentIndex" format="integer" />
+    </declare-styleable>
+
+    <!--SpinnerView-->
+    <declare-styleable name="SpinnerView">
+        <attr name="spinnerListViewWidth" format="dimension" />
+        <attr name="spinnerListViewHeight" format="dimension" />
+        <attr name="spinnerTitleTextSize" format="dimension" />
+        <attr name="spinnerTitleTextColor" format="reference|color" />
+        <attr name="spinnerArrowWidth" format="dimension" />
+        <attr name="spinnerArrowHeight" format="dimension" />
+        <attr name="spinnerArrowImage" format="reference" />
+    </declare-styleable>
+
+    <!--SwitchButton-->
+    <declare-styleable name="SwitchView">
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbMargin" format="dimension|reference" />
+        <attr name="kswThumbMarginTop" format="dimension|reference" />
+        <attr name="kswThumbMarginBottom" format="dimension|reference" />
+        <attr name="kswThumbMarginLeft" format="dimension|reference" />
+        <attr name="kswThumbMarginRight" format="dimension|reference" />
+        <attr name="kswThumbWidth" format="dimension|reference" />
+        <attr name="kswThumbHeight" format="dimension|reference" />
+        <attr name="kswThumbRadius" format="dimension|reference" />
+        <attr name="kswBackRadius" format="dimension|reference" />
+        <attr name="kswBackDrawable" format="reference" />
+        <attr name="kswBackColor" format="color|reference" />
+        <attr name="kswFadeBack" format="boolean" />
+        <attr name="kswBackMeasureRatio" format="float" />
+        <attr name="kswAnimationDuration" format="integer" />
+        <attr name="kswTintColor" format="color|reference" />
+    </declare-styleable>
+
+    <!--CornerMarkView-->
+    <declare-styleable name="CornerMarkView">
+        <attr name="mark_background_color" format="color|reference" />
+        <attr name="mark_text" format="string" />
+        <attr name="mark_textSize" format="dimension|reference" />
+        <attr name="mark_textColor" format="color|reference" />
+        <attr name="mark_location" format="enum">
+            <enum name="left_top" value="0" />
+            <enum name="right_top" value="1" />
+            <enum name="left_bottom" value="2" />
+            <enum name="right_bottom" value="3" />
+        </attr>
+        <attr name="mark_visibility" format="boolean" />
+    </declare-styleable>
+</resources>
